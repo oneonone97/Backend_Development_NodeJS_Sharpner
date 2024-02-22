@@ -3,6 +3,7 @@ const port = 4000;
 const server = http.createServer((req, res) => {
     res.write('My Name is Rohan');
     res.end();
+    console.log('My Name is Rohan');
 });
 
 server.listen(port, function(error){
