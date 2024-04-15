@@ -6,11 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon arrowFunc_obj.js",
-    "start-server" :"node arrowFunc_obj.js"
+    "start-server": "node arrowFunc_obj.js"
   },
   "author": "Rohan Singh",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
